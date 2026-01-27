@@ -95,3 +95,21 @@ let cat = {
 
 console.log(cat.bark())
 console.log(cat.catName())
+
+
+/* 
+    1. Object Declaration
+    2. Object Property
+    3. Key, Values
+    4. entries
+    5. Method
+    6. Accession Object Values
+        a. Dot Notation
+        b. Bracket Notaion
+    7. Loooping through object
+        a. For In Loop (object)
+        b For of loop (array)
+    8. Delet properties from an object
+    9. Object (reserve keyword)
+    10. this keyword
+*/
