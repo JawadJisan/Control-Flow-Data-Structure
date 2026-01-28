@@ -113,3 +113,20 @@ console.log(cat.catName())
     9. Object (reserve keyword)
     10. this keyword
 */
+
+// for in loop
+const bdTesla = {
+    name: "Tesla",
+    capacity: 5,
+    avgSpeed: 30
+}
+
+// for(let i = 0; i <3; i++){
+//     console.log(bdTesla[i])
+// }
+
+for(let name in bdTesla){
+    console.log(name)
+    console.log(bdTesla[name])
+}
+
